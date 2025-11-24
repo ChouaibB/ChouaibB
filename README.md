@@ -82,8 +82,8 @@ Where possible, I share **sanitized or simulated versions** of this work to demo
 
 I’m open to roles such as **Junior Data Scientist**, **Data Analyst (with ML focus)**, or **Bioinformatics / Data Scientist**.
 
-- 💼 LinkedIn: [linkedin.com/in/chouaib-benchraka-275aa8198] 
-- 📧 Email: [benchraka@hotmail.fr]  
+- 💼 LinkedIn: linkedin.com/in/chouaib-benchraka-275aa8198
+- 📧 Email: benchraka@hotmail.fr  
 
 If you’d like to discuss a role or a project, feel free to reach out!
 
