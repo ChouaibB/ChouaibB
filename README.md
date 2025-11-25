@@ -37,6 +37,19 @@ I’m now focusing on transitioning into an **industry data scientist role**, bu
 
 ---
 
+## 📌 Featured Research Project – Microbiome-Based Survival Analysis
+
+- **Repository:** [`microbiome-survival-comparison`](https://github.com/ChouaibB/microbiome-survival-comparison)  
+  Code and analysis from my MSc thesis _“Comparison of Microbiome-Based Survival Analysis Methods”_.  
+- **What it shows:**  
+  - End-to-end R-based pipeline for microbiome-driven survival modelling (two endpoints, two taxonomies).  
+  - Realistic HPC usage (SLURM-style job submission) and reproducible project structure.  
+  - Feature selection, model comparison (e.g. xgboost, regularized models), and figure/table generation scripts matching the thesis results.  
+
+> This is my main “research-grade” public project and a concrete example of how I structure and document complex analyses.
+
+---
+
 ## 🌟 Upcoming Projects
 
 > _These are the projects I’m currently building and polishing._
@@ -86,4 +99,3 @@ I’m open to roles such as **Junior Data Scientist**, **Data Analyst (with ML f
 - 📧 Email: benchraka@hotmail.fr  
 
 If you’d like to discuss a role or a project, feel free to reach out!
-
