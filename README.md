@@ -5,8 +5,6 @@
 I’m a data scientist with a Master’s degree in Computing Sciences – Data Science (2024) and experience as a research assistant in a data science / bioinformatics group.  
 I’ve worked on **metagenomics and multi-omics**, **survival analysis**, and **reproducible pipelines** using **R, Python, Shell, Snakemake, and HPC (SLURM)**.
 
-I’m now focusing on transitioning into an **industry data scientist role**, building projects that show clear business value, solid engineering practices, and clean communication.
-
 ---
 
 ## 🔧 Tech & Tools
@@ -22,7 +20,7 @@ I’m now focusing on transitioning into an **industry data scientist role**, bu
 - Model evaluation, cross-validation, feature engineering  
 - Experimental design, statistical inference  
 
-**Data & Engineering:**  
+**Data Workflows & Tooling:**  
 - SQL (learning & practicing)  
 - Data wrangling & EDA  
 - Snakemake workflows, reproducible pipelines  
@@ -37,65 +35,43 @@ I’m now focusing on transitioning into an **industry data scientist role**, bu
 
 ---
 
-## 📌 Featured Research Project – Microbiome-Based Survival Analysis
+## 📌 Featured Projects
 
-- **Repository:** [`microbiome-survival-comparison`](https://github.com/ChouaibB/microbiome-survival-comparison)  
+- **Battery diagnostics from impedance data (ML notebooks)**  
+  **Repository:** [`battery-diagnostics-impedance-ml-examples`](https://github.com/ChouaibB/battery-diagnostics-impedance-ml-examples)  
+  A compact set of Jupyter notebooks on lithium-ion battery diagnostics from electrochemical impedance (EIS) data. Focus areas include:
+  - engineering features from impedance spectra and simple ECM-style summaries,  
+  - training regression models for state-of-charge (SoC) and state-of-health (SoH),  
+  - healthy vs aged cell classification with group-aware validation by battery.  
+
+- **Microbiome-based survival analysis (MSc thesis)**  
+  **Repository:** [`microbiome-survival-comparison`](https://github.com/ChouaibB/microbiome-survival-comparison)  
   Code and analysis from my MSc thesis _“Comparison of Microbiome-Based Survival Analysis Methods”_.  
-- **What it shows:**  
-  - End-to-end R-based pipeline for microbiome-driven survival modelling (two endpoints, two taxonomies).  
+  - End-to-end R-based workflow for microbiome-driven survival modelling with multiple endpoints and taxonomies.  
   - Realistic HPC usage (SLURM-style job submission) and reproducible project structure.  
-  - Feature selection, model comparison (e.g. xgboost, regularized models), and figure/table generation scripts matching the thesis results.  
+  - Feature selection, model comparison, and scripts for generating thesis-style figures and tables.  
 
-> This is my main “research-grade” public project and a concrete example of how I structure and document complex analyses.
-
----
-
-## 🌟 Upcoming Projects
-
-> _These are the projects I’m currently building and polishing._
-
-- In progress: **[Business ML Project – e.g. Customer Churn Prediction](#)**  
-  End-to-end machine learning project: from exploratory data analysis to model training and evaluation, with a focus on explainability and business-ready insights.
-
-- In progress: **[Data Engineering / SQL Project – e.g. Analytics Pipeline](#)**  
-  SQL + data engineering–style project: building a small data model, writing analytical queries, and exposing metrics that a business stakeholder would care about.
-
-- In progress: **[Survival / Omics Project – e.g. Multi-omics Survival Analysis](#)**  
-  Survival analysis project using real or realistic omics-like data. Includes feature preprocessing, model fitting (e.g. Cox models), and interpretation of risk scores.
-
-- In progress: **[Reproducible Pipeline – e.g. Snakemake + HPC Workflow](#)**  
-  A compact example of a reproducible data/ML pipeline using Snakemake on HPC/SLURM, demonstrating good practices for research and production-grade workflows.
-
-> I’m gradually polishing and documenting these projects so they are easy to read, run, and evaluate.
+> These are currently my main public projects and concrete examples of how I structure and document applied ML and research-style analyses.
 
 ---
 
 ## 📚 Research Background (Bioinformatics / Omics)
 
-Previously, I worked as a **Research Assistant** in a data science / bioinformatics group, focusing on:
+Previously, I worked as a **Research Assistant** in a data science / bioinformatics group, where I focused on:
 
 - Metagenomics and multi-omics data integration  
 - Survival analysis and risk modeling  
 - Reproducible, scalable workflows (Snakemake, HPC, Git)
 
-Where possible, I share **sanitized or simulated versions** of this work to demonstrate my approach without exposing confidential data.
-
----
-
-## 🔭 What I’m Working on Now
-
-- Building a **business-oriented ML project** with a lightweight deployment (e.g. API or simple app).
-- Creating a **data engineering / SQL–focused project** to showcase data modeling and query skills.
-- Designing a **flagship survival / omics analysis** project that reflects my research strengths in an industry-friendly format.
-- Sharpening my **Python, SQL, and MLOps** skills, while keeping my R and statistics toolkit strong.
 
 ---
 
 ## 🤝 Collaboration & Contact
 
-I’m open to roles such as **Junior Data Scientist**, **Data Analyst (with ML focus)**, or **Bioinformatics / Data Scientist**.
+**I am open to data science positions across industry and research settings, including academic and R&D environments.**
 
-- 💼 LinkedIn: [linkedin.com/in/chouaib-benchraka-275aa8198](https://www.linkedin.com/in/chouaib-benchraka-275aa8198)
+- 💼 LinkedIn: [linkedin.com/in/chouaib-benchraka-275aa8198](https://www.linkedin.com/in/chouaib-benchraka-275aa8198)  
 - 📧 Email: benchraka@hotmail.fr  
 
 If you’d like to discuss a role or a project, feel free to reach out!
+
