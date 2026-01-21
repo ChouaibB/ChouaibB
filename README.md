@@ -45,7 +45,7 @@ I’ve worked on **metagenomics and multi-omics**, **survival analysis**, and **
   - healthy vs aged cell classification with group-aware validation by battery.  
 
 - **Wearable activity recognition & physiology ML**  
-  **Repository:** [`wearable-physiology-ml-notebooks`](https://github.com/ChouaibB/wearable-physiology-ml-notebooks)  
+  **Repository:** [`wearable-physiology-ml-notebooks`](https://github.com/ChouaibB/wearables-ml-examples)  
   A growing collection of clean, end-to-end Jupyter notebooks demonstrating applied machine learning on wearable sensor data (IMU, PPG, physiology):
   - human activity recognition from wrist IMU data (PAMAP2) using windowed features and subject-wise cross-validation,  
 
