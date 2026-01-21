@@ -37,12 +37,18 @@ I’ve worked on **metagenomics and multi-omics**, **survival analysis**, and **
 
 ## 📌 Featured Projects
 
-- **Battery diagnostics from impedance data (ML notebooks)**  
+- **Battery diagnostics from impedance data**  
   **Repository:** [`battery-diagnostics-impedance-ml-examples`](https://github.com/ChouaibB/battery-diagnostics-impedance-ml-examples)  
   A compact set of Jupyter notebooks on lithium-ion battery diagnostics from electrochemical impedance (EIS) data. Focus areas include:
   - engineering features from impedance spectra and simple ECM-style summaries,  
   - training regression models for state-of-charge (SoC) and state-of-health (SoH),  
   - healthy vs aged cell classification with group-aware validation by battery.  
+
+- **Wearable activity recognition & physiology ML**  
+  **Repository:** [`wearable-physiology-ml-notebooks`](https://github.com/ChouaibB/wearable-physiology-ml-notebooks)  
+  A growing collection of clean, end-to-end Jupyter notebooks demonstrating applied machine learning on wearable sensor data (IMU, PPG, physiology):
+  - human activity recognition from wrist IMU data (PAMAP2) using windowed features and subject-wise cross-validation,  
+
 
 - **Microbiome-based survival analysis (MSc thesis)**  
   **Repository:** [`microbiome-survival-comparison`](https://github.com/ChouaibB/microbiome-survival-comparison)  
