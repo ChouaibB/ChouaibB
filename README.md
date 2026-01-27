@@ -48,8 +48,9 @@ I’ve worked on **metagenomics and multi-omics**, **survival analysis**, and **
   **Repository:** [`wearable-physiology-ml-notebooks`](https://github.com/ChouaibB/wearables-ml-examples)  
   A growing collection of clean, end-to-end Jupyter notebooks demonstrating applied machine learning on wearable sensor data (IMU, PPG, physiology):
   - human activity recognition from wrist IMU data (PAMAP2) using windowed features and subject-wise cross-validation,
-  - heart rate estimation from wrist PPG + accelerometer data (PPG-DaLiA), emphasizing motion-aware feature design, classical regression baselines, and robust error analysis under motion.  
-
+  - heart rate estimation from wrist PPG + accelerometer data (PPG-DaLiA), emphasizing motion-aware feature design, classical regression baselines, and robust error analysis under motion.
+  - sleep stage classification from Apple Watch accelerometer + heart rate (PhysioNet Sleep-Accel), using PSG-aligned 30s epoching, subject-wise CV, and lightweight temporal context features (5-class and 3-class staging).
+ 
 - **Microbiome-based survival analysis (MSc thesis)**  
   **Repository:** [`microbiome-survival-comparison`](https://github.com/ChouaibB/microbiome-survival-comparison)  
   Code and analysis from my MSc thesis _“Comparison of Microbiome-Based Survival Analysis Methods”_.  
