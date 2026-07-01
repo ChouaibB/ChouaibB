@@ -1,84 +1,94 @@
-# Hi, I'm Chouaib Benchraka 👋
+# Hi, I'm Chouaib Benchraka
 
-**Data Scientist | Computing Sciences (Data Science) MSc | Research & Omics Background**
+**Data Scientist | MSc in Computing Sciences – Data Science | Reproducible Analytics, Applied ML, and Research Workflows**
 
-I’m a data scientist with a Master’s degree in Computing Sciences – Data Science (2024) and experience as a research assistant in a data science / bioinformatics group.  
-I’ve worked on **metagenomics and multi-omics**, **survival analysis**, and **reproducible pipelines** using **R, Python, Shell, Snakemake, and HPC (SLURM)**.
+I am a data scientist with a Master’s degree in Computing Sciences – Data Science and 3+ years of research experience building reproducible analytical workflows in Python and R.
 
----
+My professional background has been in research data science, especially high-dimensional datasets, feature engineering, statistical modelling, machine-learning evaluation, survival analysis, and well-documented reporting for interdisciplinary collaborators.
 
-## 🔧 Tech & Tools
+I also have a Bachelor’s degree in Environmental Engineering, which gives me an additional applied engineering and sustainability perspective. While my work experience has mainly been in research analytics and biomedical data science, I am interested in applying data science methods across domains, including renewable energy, battery systems, sensor data, health data, and other real-world analytical problems.
 
-**Languages:**  
-- Python (pandas, NumPy, scikit-learn, matplotlib/seaborn)  
-- R (tidyverse, survival, glmnet, caret / tidymodels)  
-- Shell scripting (Bash)  
-
-**Machine Learning & Statistics:**  
-- Supervised learning (classification, regression)  
-- Survival analysis (Cox models, regularization, risk scores)  
-- Model evaluation, cross-validation, feature engineering  
-- Experimental design, statistical inference  
-
-**Data Workflows & Tooling:**  
-- SQL (learning & practicing)  
-- Data wrangling & EDA  
-- Snakemake workflows, reproducible pipelines  
-- HPC (SLURM), job arrays, resource management  
-- Git & GitHub for version control and collaboration  
-
-**Dev & Reproducibility:**  
-- Conda / virtualenv  
-- Docker (basics)  
-- Jupyter / RMarkdown / Quarto  
-- Documentation and clean project structure  
+This GitHub profile highlights selected public projects that demonstrate how I structure, document, and communicate applied data science work.
 
 ---
 
-## 📌 Featured Projects
+## Featured Projects
 
-- **Battery diagnostics from impedance data**  
-  **Repository:** [`battery-diagnostics-impedance-ml-examples`](https://github.com/ChouaibB/battery-diagnostics-impedance-ml-examples)  
-  A compact set of Jupyter notebooks on lithium-ion battery diagnostics from electrochemical impedance (EIS) data. Focus areas include:
-  - engineering features from impedance spectra and simple ECM-style summaries,  
-  - training regression models for state-of-charge (SoC) and state-of-health (SoH),  
-  - healthy vs aged cell classification with group-aware validation by battery.  
+### Wave-energy forecasting, uncertainty, and storage-aware smoothing
 
-- **Wearable activity recognition & physiology ML**  
-  **Repository:** [`wearable-physiology-ml-notebooks`](https://github.com/ChouaibB/wearables-ml-examples)  
-  A growing collection of clean, end-to-end Jupyter notebooks demonstrating applied machine learning on wearable sensor data (IMU, PPG, physiology):
-  - human activity recognition from wrist IMU data (PAMAP2) using windowed features and subject-wise cross-validation,
-  - heart rate estimation from wrist PPG + accelerometer data (PPG-DaLiA), emphasizing motion-aware feature design, classical regression baselines, and robust error analysis under motion.
-  - sleep stage classification from Apple Watch accelerometer + heart rate (PhysioNet Sleep-Accel), using PSG-aligned 30s epoching, subject-wise CV, and lightweight temporal context features (5-class and 3-class staging).
- 
-- **Microbiome-based survival analysis (MSc thesis)**  
-  **Repository:** [`microbiome-survival-comparison`](https://github.com/ChouaibB/microbiome-survival-comparison)  
-  Code and analysis from my MSc thesis _“Comparison of Microbiome-Based Survival Analysis Methods”_.  
-  - End-to-end R-based workflow for microbiome-driven survival modelling with multiple endpoints and taxonomies.  
-  - Realistic HPC usage (SLURM-style job submission) and reproducible project structure.  
-  - Feature selection, model comparison, and scripts for generating thesis-style figures and tables.  
+**Repository:** [`wave-energy-forecasting-storage-ml`](https://github.com/ChouaibB/wave-energy-forecasting-storage-ml)  
+**Archived release:** [Zenodo DOI](https://doi.org/10.5281/zenodo.21101152)
 
-> These are currently my main public projects and concrete examples of how I structure and document applied ML and research-style analyses.
+A reproducible notebook-based workflow exploring short-term estimated wave-energy converter power forecasting, empirical prediction intervals, storage-aware smoothing metrics, and a simple SimSES BESS replay demonstration.
+
+Focus areas include:
+
+- preparing open Copernicus/EMODnet wave-resource observations;
+- estimating simplified WEC power using a transparent generic power-matrix approach;
+- evaluating short-term forecasting baselines across multiple horizons;
+- constructing empirical prediction intervals and uncertainty diagnostics;
+- translating smoothed grid-export targets into storage power, energy, throughput, and equivalent-cycle metrics;
+- replaying selected smoothing duty cycles through a simple SimSES battery workflow to inspect SOC movement, throughput, C-rate proxies, illustrative thermal response, and degradation-relevant indicators.
+
+This project is a transparent applied data science workflow. It is not a validated WEC design, optimized BESS sizing study, or bankable battery degradation analysis.
+
+### Battery diagnostics from impedance data
+
+**Repository:** [`battery-diagnostics-impedance-ml-examples`](https://github.com/ChouaibB/battery-diagnostics-impedance-ml-examples)
+
+A compact set of Jupyter notebooks exploring lithium-ion battery diagnostics from electrochemical impedance spectroscopy data.
+
+Focus areas include:
+
+- engineering features from impedance spectra and simple ECM-style summaries;
+- training machine-learning models for state-of-charge and state-of-health estimation;
+- healthy vs aged cell classification;
+- group-aware validation to reduce leakage across battery cells.
+
+### Wearable activity recognition and physiology ML
+
+**Repository:** [`wearables-ml-examples`](https://github.com/ChouaibB/wearables-ml-examples)
+
+A collection of applied machine-learning notebooks using wearable sensor data such as IMU, PPG, accelerometer, and heart-rate signals.
+
+Focus areas include:
+
+- human activity recognition from wrist IMU data;
+- heart-rate estimation from wrist PPG and accelerometer data;
+- sleep-stage classification from Apple Watch accelerometer and heart-rate data;
+- subject-wise validation, windowed feature engineering, and robust error analysis.
+
+### Microbiome-based survival analysis
+
+**Repository:** [`microbiome-survival-comparison`](https://github.com/ChouaibB/microbiome-survival-comparison)
+
+Code and analysis from my MSc thesis, _Comparison of Microbiome-Based Survival Analysis Methods_.
+
+Focus areas include:
+
+- R-based survival modelling workflows;
+- multiple clinical endpoints and taxonomic feature levels;
+- feature selection, model comparison, and risk-score evaluation;
+- reproducible project structure and HPC-oriented batch execution.
 
 ---
 
-## 📚 Research Background (Bioinformatics / Omics)
+## Research and Applied Data Science Background
 
-Previously, I worked as a **Research Assistant** in a data science / bioinformatics group, where I focused on:
+My background combines data science training with research experience on noisy, heterogeneous, real-world datasets. I have worked on data validation, preprocessing, feature engineering, statistical modelling, machine learning, visualization, reporting, and reproducible workflow design.
 
-- Metagenomics and multi-omics data integration  
-- Survival analysis and risk modeling  
-- Reproducible, scalable workflows (Snakemake, HPC, Git)
+My earlier research work was in biomedical data science, including microbiome, metagenomics, multi-omics, clinical metadata, and survival analysis. That experience trained me to work carefully with complex datasets, evaluate modelling choices systematically, and produce transparent analysis outputs for research and decision support.
 
+Alongside this background, I am interested in broader applied data science problems where careful modelling, uncertainty-aware evaluation, reproducible workflows, and clear communication can support better decisions.
 
 ---
 
-## 🤝 Collaboration & Contact
+## Collaboration & Contact
 
-**I am open to data science positions across industry and research settings, including academic and R&D environments.**
+I am open to data science roles and research/R&D opportunities involving applied machine learning, reproducible scientific computing, statistical modelling, time-series analysis, sensor data, renewable energy, battery systems, health data, and other real-world data domains.
 
-- 💼 LinkedIn: [linkedin.com/in/chouaib-benchraka-275aa8198](https://www.linkedin.com/in/chouaib-benchraka-275aa8198)  
-- 📧 Email: benchraka@hotmail.fr  
-
-If you’d like to discuss a role or a project, feel free to reach out!
+- LinkedIn: [linkedin.com/in/chouaib-benchraka-275aa8198](https://www.linkedin.com/in/chouaib-benchraka-275aa8198)
+- GitHub: [github.com/ChouaibB](https://github.com/ChouaibB)
+- ORCID: [0000-0002-1167-7848](https://orcid.org/0000-0002-1167-7848)
+- Email: benchraka@hotmail.fr
 
