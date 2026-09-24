@@ -14,6 +14,25 @@ This GitHub profile highlights selected public projects that demonstrate how I s
 
 ## Featured Projects
 
+### Open-data offshore renewable-energy resource assessment
+
+**Repository:** [`offshore-platforms-renewable-energy-assessment`](https://gitlab.com/ChouaibBGL/offshore-platforms-renewable-energy-assessment)  
+**Published project site:** [GitLab Pages](https://chouaibbgl.gitlab.io/offshore-platforms-renewable-energy-assessment/)  
+**Interactive map:** [Open interactive map](https://chouaibbgl.gitlab.io/offshore-platforms-renewable-energy-assessment/map/)  
+**Archived release:** [Zenodo DOI](https://doi.org/10.5281/zenodo.22928346)
+
+A reproducible open-data workflow for screening-level offshore renewable-energy resource assessment across offshore oil & gas and offshore-wind infrastructure.
+
+Focus areas include:
+
+- harmonizing public offshore oil & gas and offshore-wind infrastructure inventories into a common site dataset;
+- mapping 2025 WAVERYS wave reanalysis and ERA5 wind/solar data to offshore sites with documented provenance;
+- characterizing wave, wind, and solar resources, including wave-energy flux and resource complementarity;
+- producing static site-level assessments and an illustrative WEC + VAWT + PV screening scenario;
+- publishing the workflow, interactive global map, methodology reports, and assessment pages through GitLab Pages.
+
+This project is a screening/reconnaissance-level resource assessment. It is not a hydrodynamic simulation, validated device-performance study, or bankable energy-yield assessment.
+
 ### Wave-energy forecasting, uncertainty, and storage-aware smoothing
 
 **Repository:** [`wave-energy-forecasting-storage-ml`](https://github.com/ChouaibB/wave-energy-forecasting-storage-ml)  
